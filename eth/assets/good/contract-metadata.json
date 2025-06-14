@@ -1,0 +1,8 @@
+{
+  "name": "Good Munchie (Good)",
+  "description": "Goods and munchies in artsy packaging",
+  "image": "https://imaginecouncil.mypinata.cloud/ipfs/QmS9mtmSnLoRE3iHRr3gzbqeYRxk2unjrMk1QjK9xv9FrJ",
+  "external_link": "https://pushuser-staging.herokuapp.com/portal/good/page",
+  "seller_fee_basis_points": 25000,
+  "fee_recipient": "0x12e117CdEF30a4072158Df55A302384779E0692A"
+}

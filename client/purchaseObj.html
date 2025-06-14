@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html style="width: 100%; height: 100%" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <h4 id="name"></h4>
+        <p id="price"></p>
+        <p id="description"></p>
+        <p id="inventory"></p>
+        <img id="img" style="width: 100px" />
+        <button onclick="purchase()">Purchase</button>
+        <script>
+            var input = {
+
+            }
+            fetch('https://ppw-member.herokuapp.com/routes/objects/getObject', {
+                        method: 'POST',
+                        body: JSON.stringify(input),
+                        headers: { "Content-Type": "application/json"}
+                    }).then(function(response) {
+                        return response.json();
+                    }).then(function(data) {
+                    try {
+                        if (data.message === 'Success') {
+                            document.getElementById('name').innerText = data.object.name
+                            document.getElementById('price').innerText = data.object.price
+                            document.getElementById('description').innerText = data.object.description
+                            document.getElementById('inventory').innerText = data.object.inventory.toString()
+                            document.getElementById('img').src = data.object.image
+                        }
+                    } catch(e) {
+                        alert("There has been an error! Please try again")
+                    }
+                    })
+
+            function purchase() {
+                fetch('https://ppw-member.herokuapp.com/routes/objects/purchase', {
+                        method: 'POST',
+                        body: JSON.stringify(input),
+                        headers: { "Content-Type": "application/json"}
+                    }).then(function(response) {
+                        return response.json();
+                    }).then(function(data) {
+                    try {
+                        if (data.message === 'Success') {
+                            alert("Item has been successfully purchased")
+                        }
+                    } catch(e) {
+                        alert("There has been an error! Please try again")
+                    }
+                    })
+            }
+        </script>
+    </body>
+</html>

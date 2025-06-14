@@ -1,0 +1,12 @@
+module.exports = {
+    PROMO: "PROMO",
+    PRODUCT: "PRODUCT",
+    ATTRIBUTE: "ATTRIBUTE",
+    EVENT: "EVENT",
+    INVESTOR: "INVESTOR",
+    PAYMENT: "PAYMENT",
+    PORTAL: "PORTAL",
+    DRRT: "DRRT",
+    COLLECTIBLE: "COLLECTIBLE",
+  };
+  

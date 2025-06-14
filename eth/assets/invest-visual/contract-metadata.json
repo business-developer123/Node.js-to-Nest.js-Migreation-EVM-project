@@ -1,0 +1,8 @@
+{
+  "name": "Invest Visual (IV)",
+  "description": "A deal flow system for alternative assets",
+  "image": "https://imaginecouncil.mypinata.cloud/ipfs/QmTAyDLJ73V3sLgX5VLKq3U6zHUxuPsKnjDcgDHTpVyUcR",
+  "external_link": "https://pushuser-staging.herokuapp.com/portal/sayb/page",
+  "seller_fee_basis_points": 25000,
+  "fee_recipient": "0x12e117CdEF30a4072158Df55A302384779E0692A"
+}

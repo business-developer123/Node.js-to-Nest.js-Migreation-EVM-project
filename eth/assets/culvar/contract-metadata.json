@@ -1,0 +1,8 @@
+{
+  "name": "Culvar (C)",
+  "description": "A newspaper-magazine-comicbook",
+  "image": "https://imaginecouncil.mypinata.cloud/ipfs/QmXHQFhQUcsQyQNAaSPfYPaQSxFgCfJP91CoqpTHBmPutr",
+  "external_link": "https://pushuser-staging.herokuapp.com/portal/culvar/page",
+  "seller_fee_basis_points": 25000,
+  "fee_recipient": "0x12e117CdEF30a4072158Df55A302384779E0692A"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Divvyland (Divvy)",
+  "description": "A consortium of purveyors orchestrating the production of physical and digital goods",
+  "image": "https://imaginecouncil.mypinata.cloud/ipfs/QmfGixRKWRnah59V6McRDhL9MtDViPqjhRDqSFcAhCF7Gj",
+  "external_link": "https://pushuser-staging.herokuapp.com/portal/sayb/page",
+  "seller_fee_basis_points": 25000,
+  "fee_recipient": "0x12e117CdEF30a4072158Df55A302384779E0692A"
+}

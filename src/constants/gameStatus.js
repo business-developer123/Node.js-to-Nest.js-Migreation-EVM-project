@@ -1,0 +1,8 @@
+module.exports = {
+    PENDING: "PENDING",
+    SUBMISSION: "SUBMISSION",
+    VOTING: "VOTING",
+    COMPLETE: "COMPLETE",
+    FAILED: "FAILED",
+    DISTRIBUTION: "DISTRIBUTION"
+  }

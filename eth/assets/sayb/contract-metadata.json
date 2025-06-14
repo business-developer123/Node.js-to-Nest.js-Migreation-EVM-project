@@ -1,0 +1,8 @@
+{
+  "name": "Say Brandon (SBO)",
+  "description": "A special library that serves imagination culture",
+  "image": "https://imaginecouncil.mypinata.cloud/ipfs/QmX9hCdF3SDZ31NN1FQLoS9f3gvdnyASTD6PqNDv91or4H",
+  "external_link": "https://pushuser-staging.herokuapp.com/portal/sayb/page",
+  "seller_fee_basis_points": 25000,
+  "fee_recipient": "0x12e117CdEF30a4072158Df55A302384779E0692A"
+}

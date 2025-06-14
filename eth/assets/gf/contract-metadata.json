@@ -1,0 +1,8 @@
+{
+  "name": "Goniaface (GF)",
+  "description": "Recreational lifestyle solutions and operations",
+  "image": "https://imaginecouncil.mypinata.cloud/ipfs/QmY1NbaDfNVGpDwX8M2WdgnEpCKVNopZjkn1Vp4EBL5mdk",
+  "external_link": "https://pushuser-staging.herokuapp.com/portal/gf/page",
+  "seller_fee_basis_points": 25000,
+  "fee_recipient": "0x12e117CdEF30a4072158Df55A302384779E0692A"
+}
